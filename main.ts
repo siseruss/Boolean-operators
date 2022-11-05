@@ -1,3 +1,6 @@
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    mySprite.say(!(true))
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.say(myBoolean1 || myBoolean2)
 })
